@@ -11,19 +11,19 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center ">
         {/* logo */}
         <Link href='/'>
-               <h1 className="text-4xl font-semibold">Tanim <span className="text-accent">Khan</span></h1>
+          <h1 className="text-4xl font-semibold">Tanim <span className="text-accent">Khan</span></h1>
         </Link>
         {/* desktop nav & hire me button */}
         <div className="hidden xl:flex items-center gap-8">
-        <Nav />
-        
-        <Link href="/contact">
-          <Button>Hire me</Button>
-           </Link>
+          <Nav />
+
+          <Link href="/contact">
+            <Button>Hire me</Button>
+          </Link>
         </div>
         {/* Mobile nav  */}
         <div className="xl:hidden">
-          <MobileNav/>
+          <MobileNav />
         </div>
 
       </div>
