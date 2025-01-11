@@ -4,6 +4,7 @@ import Stats from '@/components/Stats';
 import { Button } from '@/components/ui/button';
 import { FiDownload } from "react-icons/fi";
 
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -34,6 +35,8 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+
+      {/* <Services/> */}
     </section>
 
   );

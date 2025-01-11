@@ -25,8 +25,6 @@ export default function RootLayout({ children }) {
         <StairTransition />
         {/* <StairTransition/> */}
         <PageTransition> {children}</PageTransition>
-
-
       </body>
     </html>
   );
